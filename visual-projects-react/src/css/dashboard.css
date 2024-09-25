@@ -1,0 +1,142 @@
+.dashboard-numbers-indicators {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.card-indicators {
+  border: none;
+  border-radius: 0;
+  padding: 50px; /* Aumentar el valor del padding para hacer las cards más grandes */
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  width: 12rem;
+  height: 9.5rem;
+}
+.card-boton-metas {
+  border: none;
+  border-radius: 0;
+  padding: 50px; /* Aumentar el valor del padding para hacer las cards más grandes */
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 7rem;
+}
+.card-boton-metas:hover {
+  transform: scale(1.1); /* Escalar la imagen al pasar el mouse */
+}
+.cardMetas{
+  background-color: #F5F7AF;
+  color: #050505;
+}
+.card1 {
+  background-color: #464799;
+  color: #fff;
+}
+
+.card2 {
+  background-color: #6d6ebc;
+  color: #fff;
+}
+
+.card3 {
+  background-color: #464799;
+  color: #fff;
+}
+
+.card4 {
+  background-color: #6d6ebc;
+  color: #fff;
+}
+
+.card5 {
+  background-color: #6d6ebc;
+  color: #fff;
+}
+
+.card6 {
+  background-color: #464799;
+  color: #fff;
+}
+
+.card7 {
+  background-color: #6d6ebc;
+  color: #fff;
+}
+
+.card8 {
+  background-color: #464799;
+  color: #fff;
+}
+
+.title-card {
+  font-size: 14px;
+  width: 200%;
+  margin-left: -3rem;
+  margin-top: -2.2rem;
+}
+.info-card {
+  margin-top: -0.5rem;
+  font-size: 73px;
+}
+.body-card {
+  font-size: 12px;
+  width: 200%;
+  margin-left: -3rem;
+  margin-top: -0.9rem;
+}
+
+.dashboard-graphcs-activities {
+  display: grid;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 29rem;
+}
+
+.cardGraphic {
+  border: none;
+  border-radius: none;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 10px; /* Ajusta el espacio entre las cards según sea necesario */
+  width: 26rem;
+  height: 20.25rem;
+}
+
+.special-card-1 {
+  background-color: #464799; /* Color azul */
+  color: #fff;
+}
+.special-card-2 {
+  background-color: #6d6ebc; /* Color azul */
+  color: #fff;
+  margin-top: -20.25rem;
+  margin-left: 27rem;
+}
+.special-card-3 {
+  background-color: #6d6ebc;
+  color: #fff;
+  margin-top: 1rem;
+}
+.special-card-4 {
+  background-color: #464799; /* Color azul */
+  color: #fff;
+  margin-top: -20.25rem;
+  margin-left: 27rem;
+}
+
+.cardGraphic-title {
+  color: #fff;
+  font-size: 25px;
+  width: 90%;
+}
+
+.inforIndicator:hover{
+  transform: translateY(-5px);
+}

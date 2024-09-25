@@ -1,0 +1,50 @@
+/* Estilos para la ventana emergente del calendario */
+.custom-datepicker{
+    background-color: transparent;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.react-datepicker-popper {
+    z-index: 1;
+  }
+  
+  /* Estilos para el contenedor del calendario */
+  .react-datepicker {
+    font-family: 'Arial';
+    color: #333;
+    background-color: #bdb9eee4; /* Fondo del calendario */
+    border: 1px solid #ddd; /* Borde del calendario */
+    border-radius: 8px;
+  }
+  
+  /* Estilos para el fondo del calendario */
+  .react-datepicker__triangle {
+    border-bottom-color: #f5f5f5; /* Fondo del calendario */
+  }
+  
+  /* Estilos para la caja que contiene los días del calendario */
+  .react-datepicker__month {
+    margin: 0.4rem;
+  }
+  
+  /* Estilos para los días del calendario */
+  .react-datepicker__day {
+    color: #333;
+  }
+  
+  /* Estilos para los días del calendario que no son del mes actual */
+  .react-datepicker__day--outside-month {
+    color: #999;
+  }
+  
+  /* Estilos para los días seleccionados */
+  .react-datepicker__day--selected {
+    background-color: #6200ea; /* Color de fondo para los días seleccionados */
+    color: #fff;
+  }
+  
+  .react-datepicker__input-container input::placeholder {
+    color: #8b8a8a; /* Color del texto del placeholder */
+   
+  }

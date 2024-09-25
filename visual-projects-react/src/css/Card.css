@@ -1,0 +1,288 @@
+.img-card{
+ width: 100px;
+}
+.titulo{
+    font-size:80%;
+    color: white;
+}
+.card-proyectos {
+    border-radius: 15%;
+    height: 235px;
+    width: 230px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-right: 50%;
+}
+.card-proyectos:hover {
+    transition: all 400ms ease;
+    transform: translateY(-3.5%);
+    box-shadow: 0 12px 16px rgba(190, 189, 189, 0.2);
+}
+
+.card-recursos{
+  border-radius: 15%;
+  height: 170px;
+  width: 295px;
+  cursor: pointer;
+  overflow: hidden;
+ 
+}
+
+.card-head{
+    background-color: #163bdd;
+}
+.cuerpo-card{
+    background-color: #d3dafa;
+
+}
+.card-footer
+{
+    background: #acb7eb;
+}
+.divider{
+    width: 10rem;
+    height: 2rem;
+}
+
+.cardPlaneacion{
+    width: 30rem;
+    z-index: 0;
+}
+.dropdown-card-tipo{
+    z-index: 1;
+}
+
+.data-liders{
+    color: aliceblue;
+    font-size: 70%;
+    
+}
+.card-liders{
+  border-radius: 15%;
+  height: 190px;
+  width: 230px;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: -5rem;
+  margin-top: 8rem;
+  z-index: 2;
+  background: #5254b1;
+}
+
+.card-projects{
+    width: 45rem;
+    height: 34rem;
+    background: #5254b1;
+    color: aliceblue;
+  
+}
+
+
+.card-head-liders{
+    background-color:  #4b4ca1;
+    height: 65px;
+}
+
+.card-body-liders{
+    background-color:  #4b4ca1
+}
+.btn-crear-liders{
+    background-color:  #4b4ca1;
+    color: aliceblue;
+    margin-top: "2rem";
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.btn-crear-recursos{
+  background-color:  #4b4ca1;
+  color: aliceblue;
+  margin-bottom: 2%;
+}
+
+.btn-crear-recursos:hover{
+  transition: all 400ms ease;
+  transform: translateY(-3.5%);
+  box-shadow: 0 12px 16px rgba(190, 189, 189, 0.2);
+}
+
+.iconLiders{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.card-metas{
+    width: 50rem;
+    height: 41rem;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    background: #5254b1;
+    color: aliceblue;
+}
+.title-goal{
+    font-style: oblique;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.info-goal{
+    margin-top: 1rem;
+    margin-left: -4.8rem;
+}
+
+.card-graphic{
+    border-radius: 0;
+    border: none;
+    background-color:  transparent;
+    width: 12rem;
+    height: 11rem;
+    margin-left: 2.2rem;
+    margin-top: 3rem;
+}
+
+.card-graphic-dos{
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    width: 12rem;
+    height: 11rem;
+    margin-top: 3rem;
+}
+.card-goal{
+    border: none;
+    border-radius: 10px;
+    min-width: 300px;
+    background-color: #5254b1;
+    margin-left: 4rem;
+    height: 180px;
+    margin-top: 2rem;
+}
+
+.card-create-activities{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 3%;
+    min-width: 190px;
+    height: 70px;
+    background-color: #5254b1;
+    margin-left: 40rem;
+    color: #F5F7AF;
+}
+
+.card-create-activities:hover{
+    transition: all 400ms ease;
+    transform: translateY(-3.5%);
+    box-shadow: 0 12px 16px rgba(190, 189, 189, 0.2);
+}
+
+.card-activities {
+    overflow-y: auto;
+    background-color: #b6b7dd;
+    border-radius: 0;
+    margin-right: 16px;
+    padding: 16px;
+    min-width: 295px;
+    height: 550px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s, border 0.3s;
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+  }
+  .task-activities.selected {
+    border-color: purple; /* Color que marca la última actividad seleccionada */
+  }
+  .selected {
+    border-color: purple;
+  }
+
+
+  .title-card-activities{
+    margin-bottom: 11px;
+    font-size:18px;
+    color: #333333;
+  }
+
+  .tasks-container {
+    padding: 5px;
+  }
+  .task-activities {
+    background-color: #f7f4f081;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .task-activities:hover {
+    transform: translateY(-5px);
+  }
+  .activity-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .activity-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  .status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .card-graphics-goal-activity {
+    border: none;
+    border-radius: 5%;
+    padding: 72px; /* Aumentar el valor del padding para hacer las cards más grandes */
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    width: 20rem;
+    height: 17.5rem;
+    margin-left: 5rem;
+    margin-top: 2.2rem;
+  }
+
+  .card-graphics-goal-task {
+    border: none;
+    border-radius: 5%;
+    padding: 72px; /* Aumentar el valor del padding para hacer las cards más grandes */
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    width: 20rem;
+    height: 17.5rem;
+    margin-left: 26.5rem;
+    margin-top: -17.5rem;
+  }
+  .title-graphics-goal{
+    margin-top: -3.5rem;
+    color:#F5F7AF;
+    width: 120%;
+  }
+  .info-graphics-goal{
+    margin-top: 0.5rem;
+    height: 150%;
+  }
+
+  .card-graphics-projects{
+    width: 14rem;
+    height: 10rem;
+    margin-left: 7rem;
+    border-radius: 15px;
+    margin-top: 1.6rem;
+  }
+  .card-graphics-projects-cpi{
+    width: 14rem;
+    height: 10rem;
+    margin-left: 22rem;
+    border-radius: 15px;
+    margin-top: -10rem;
+  }

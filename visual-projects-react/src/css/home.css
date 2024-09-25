@@ -1,0 +1,75 @@
+.imgFondo {
+  margin-top: 15%;
+  max-width: 70%;
+  margin-left: 17%;
+}
+
+.title-home {
+  color: #F5F7AF;
+  margin-top: 2.5%;
+  margin-left: 22rem;
+  font-size: 30px;
+}
+.subtitle-home {
+  color: #5254b1;
+  margin-left: 22rem;
+  margin-top: 2%;
+  font-size: 25px;
+  font-style: oblique;
+  width: 90%;
+}
+.subtitle-info-project {
+  color: aliceblue;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: large;
+  font-style: oblique;
+}
+
+.card-home-lideres {
+  max-width: 20%;
+}
+.btn-lideres {
+  margin-left: 10%;
+}
+
+.btn-busqueda {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 300px;
+  border-color: aliceblue;
+  background-color: transparent;
+  margin-top: 0.5rem;
+  color: aliceblue;
+}
+
+.btn-busqueda input[type="text"] {
+  color: aliceblue;
+  background-color: #191a4a;
+  border: 0;
+  outline: none;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px 0;
+  padding: 0 40px;
+}
+.iconoBusqueda {
+  margin-bottom: -6rem;
+  margin-left: 12px;
+}
+::placeholder {
+  color: white;
+}
+
+.card-project {
+  border-radius: 15px;
+  background: #5254b1;
+  margin: 65px;
+  height: 610px;
+  width: 1100px;
+  margin-left: 22rem;
+  margin-top: 3%;
+}

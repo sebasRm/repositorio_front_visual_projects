@@ -1,0 +1,87 @@
+/* Velocimetro.css */
+.velocimetro-container {
+  text-align: center;
+}
+
+.velocimetro {
+  position: relative;
+  width: 200px;
+}
+
+/* Velocimetro.css */
+/* Velocimetro.css */
+.velocimetro-semi-circle {
+  background: conic-gradient(
+    #4CAF50 0deg 180deg,   /* Tomate claro en la mitad izquierda */
+    #f58c58 180deg 360deg     /* Gris en la mitad derecha */
+  );
+  width: 200px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.velocimetro-semi-circle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background: #ddd; /* Nuevo color en la parte inferior */
+}
+
+/* Círculo negro en la posición de inicio */
+.velocimetro-start {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  top: 78px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; /* Ajuste del índice z para asegurar que el círculo esté encima de la barra roja */
+}
+
+/* Fondo gris transparente para resaltar el texto */
+.velocimetro-label-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(192, 192, 192, 0.5); /* Gris transparente */
+  width: 90px;
+  height: 24px;
+  z-index: 2; /* Ajuste del índice z para asegurar que el fondo esté encima de la barra roja */
+}
+
+.velocimetro-label {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  width: 100%;
+  z-index: 3; /* Ajuste del índice z para asegurar que el texto esté encima de la barra roja */
+}
+
+/* Barra roja indicadora */
+.velocimetro-needle {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background-color: red;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: 50% 100%;
+  transition: transform 0.5s ease-in-out;
+  z-index: 0; /* Asegurar que la barra roja esté detrás de otros elementos */
+}

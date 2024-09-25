@@ -1,0 +1,19 @@
+.card-information-project{
+    border-radius: 25px;
+    background: #5254b1;
+    margin: 65px;
+}
+.title-project{
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-style: oblique;
+}
+
+.btnAddLider:hover {
+    transform: scale(1.1); /* Escalar la imagen al pasar el mouse */
+  }
+
+.btn-continue:hover{
+    transform: scale(1.1); /* Escalar la imagen al pasar el mouse */ 
+}  
