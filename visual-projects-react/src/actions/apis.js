@@ -43,8 +43,8 @@ import { useAlert } from "react-alert";
  * Consultas a las Apis
  */
 
-export const urlServer = "https://b6bd-181-50-11-30.ngrok-free.app/api";
-//export const urlServer = "https://bd64-181-62-56-117.ngrok-free.app/api";
+//export const urlServer = "https://b6bd-181-50-11-30.ngrok-free.app/api";
+export const urlServer = "https://nodejs-production-f3b4.up.railway.app/api";
 /**
  * Peticion para consultar todos los lideres
  * @returns
